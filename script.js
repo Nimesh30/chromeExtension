@@ -6,7 +6,7 @@ const getjokes = async ()=>{
     quotes.innerHTML = data.value;
     
 } catch (error) {
-   
+   console.log(error);
 }
 };
 
